@@ -25,9 +25,12 @@ body {
   font-size: 20px;
   background-color: #00e2e6;
   color: white;
-  border: solid 3px #00e2e6;
+  border-radius: 4px;
+  border: 3px outset #00e2e6;
   text-shadow: 1px 1px 1px black;
 }
+
+
 
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
@@ -53,9 +56,11 @@ body {
 .listBg {
   margin: 10px 0 10px 0;
   padding: 10px 0 5px 0;
+  border: 4px outset #00e2e6;
+  border-radius: 4px;
 }
 
-.listBg, a, h4 {
+.listBg>a>h4 {
   text-shadow: 1px 1px 1px black;
   margin: 0 0 0 20px;
 }
@@ -86,6 +91,6 @@ a:hover {
   height: 45px;
   width: auto;
   margin: 10px 10px 15px 20px;
-  border: solid 2px #00e2e6;
+  border: 2px solid #00e2e6;
   border-radius: 50%;
 }

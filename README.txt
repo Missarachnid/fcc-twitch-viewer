@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/mmkepler/pen/pbmNQA.
+
+ This is my Free Code Camp project using the Twitch.tv API. The goal of this was to show who was online, offline, or didn't exist. There is a bug with the links to the twitch.tv channels coming from codepen. From what I can tell, everyone else has this as well. I will be updating this as soon as I can find a way to fix it. 

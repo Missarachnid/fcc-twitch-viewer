@@ -1,0 +1,96 @@
+body {
+  font-family: 'Droid Sans', sans-serif;
+  display: inline;
+  text-align: center;
+  background: black;
+  color: black;
+}
+
+.mainDiv {
+  margin: 0 auto;
+}
+
+.title {
+  color: #00c9cc;
+}
+
+#nav {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.choice {
+  margin: 10px 10px 30px 10px;
+  width: 130px;
+  font-size: 20px;
+  background-color: #00e2e6;
+  color: white;
+  border-radius: 4px;
+  border: 3px outset #00e2e6;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: #009799;
+}
+
+.headingDiv {
+  height: 50px;
+}
+
+#dataDiv {
+  margin: 0 auto;
+  width: 500px;
+}
+
+#dataUl {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.listBg {
+  margin: 10px 0 10px 0;
+  padding: 10px 0 5px 0;
+  border: 4px outset #00e2e6;
+  border-radius: 4px;
+}
+
+.listBg>a>h4 {
+  text-shadow: 1px 1px 1px black;
+  margin: 0 0 0 20px;
+}
+
+.online {
+  background-color: #007d80;
+}
+
+.offline,
+.closed {
+  background-color: #99fdff;
+}
+
+h3,
+h4 {
+  display: inline;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#logoImg {
+  height: 45px;
+  width: auto;
+  margin: 10px 10px 15px 20px;
+  border: 2px solid #00e2e6;
+  border-radius: 50%;
+}

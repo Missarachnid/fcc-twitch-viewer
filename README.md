@@ -12,5 +12,5 @@ This is my entry for Free Code Camp Twitch.tv viewer.
 +  Melissa Kepler a.k.a. Missarachid  
 
 ###Acknowledgements
-+  Free Code Camp
-+  Twitch TV
++  Free Code Camp  
++  Twitch TV  

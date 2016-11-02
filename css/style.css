@@ -67,7 +67,10 @@ body {
   background-color: #007d80;
 }
 
-.offline,
+.offline {
+  background-color: #009799;
+}
+
 .closed {
   background-color: #99fdff;
 }

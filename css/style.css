@@ -30,8 +30,6 @@ body {
   text-shadow: 1px 1px 1px black;
 }
 
-
-
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
@@ -56,7 +54,7 @@ body {
 .listBg {
   margin: 10px 0 10px 0;
   padding: 10px 0 5px 0;
-  border: 4px outset #00e2e6;
+  border: 4px ridge #00e2e6;
   border-radius: 4px;
 }
 

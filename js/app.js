@@ -73,11 +73,18 @@ $(document).ready(function() {
   //iterate through array of users
   for (var i = 0; i < userList.length; i++) {
     var user = userList[i];
-    var callback = "?client_id=jcif7s4k8pvn8opy8zhp3qf3gvraavk&callback=?";
+    var callback = "?callback=?";
     var urlStreams = "https://api.twitch.tv/kraken/streams/" + user + callback;
 
     //JSONP request to get initial information
-    $.getJSON(urlStreams).done(function(streamData) {
+    $.ajax({
+      type: "GET",
+      url: urlStreams,
+      headers: {
+        "Client-ID" : "jcif7s4k8pvn8opy8zhp3qf3gvraavk"
+      },
+    
+    }).done(function(streamData) {
       var name, logo, link, status;
 
       //check for function to use

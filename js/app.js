@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   var userList = ["freecodecamp", "storbeck", "terakilobyte", "habathcx", "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff", "brunofin", "comster404", "kittyplays", "ms_vixen", "streamerhouse", "syndicate", "captainsparklez", "sodapoppin", "riotgames", "summit1g", "paradoxinteractive", "ESL_CSGO", "jaeyoong", "germanletsplay", "artemis", "cretetion"];
+	var noLogo = "../img/icon.png"
 
   //clear info on refresh
   $("#dataUl").empty();
@@ -33,7 +34,7 @@ $(document).ready(function() {
   function stream(data) {
     name = data.stream.channel.display_name;
     if (data.stream.logo === null) {
-      logo = "https://crossorigin.me/http://www.mmkepler.com/other/icon.png";
+      logo = noLogo;
     } else {
       logo = data.stream.channel.logo;
     }
@@ -45,7 +46,7 @@ $(document).ready(function() {
 
   //function to run if account doesn't exist
   function streamError(data) {
-    logo = "https://crossorigin.me/http://www.mmkepler.com/other/icon.png";
+    logo = noLogo;
     var name = data.message;
     name = name.replace("Channel '", "");
     name = name.replace("' is unavailable", "");
@@ -61,7 +62,7 @@ $(document).ready(function() {
       name = userData.display_name;
       status = "Offline";
       if (userData.logo === null) {
-        logo = "https://crossorigin.me/http://www.mmkepler.com/other/icon.png";
+        logo = noLogo;
       } else {
         logo = userData.logo;
       }

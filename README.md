@@ -14,3 +14,5 @@ This is my entry for Free Code Camp Twitch.tv viewer.
 ###Acknowledgements
 +  Free Code Camp  
 +  Twitch TV  
+
+###Project can be viewed here: https://missarachnid.github.io/fcc-twitch-viewer/

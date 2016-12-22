@@ -53,7 +53,7 @@ $(document).ready(function() {
       logo = data.stream.channel.logo;
     }
 
-    $("#dataUl").prepend("<li class='online'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "'>" + "<h3>" + name + "</h3>" + "<a href='" + link + "' target='_blank'>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</a>" + "</div>" + "</li>");
+    $("#dataUl").prepend("<li class='online'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "' alt='Logo for account'>" + "<h3>" + name + "</h3>" + "<a href='" + link + "' target='_blank'>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</a>" + "</div>" + "</li>");
   }
     
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
         }
         link = userData.url;
         
-    $("#dataUl").prepend("<li class='offline'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "'>" + "<h3>" + name + "</h3>" + "<a href='" + link + "' target='_blank'>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</div>" + "</a>" + "</li>");
+    $("#dataUl").prepend("<li class='offline'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "' alt='Logo for account'>" + "<h3>" + name + "</h3>" + "<a href='" + link + "' target='_blank'>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</div>" + "</a>" + "</li>");
       }
     });
   }
@@ -89,7 +89,7 @@ $(document).ready(function() {
     name = name.replace("' is unavailable", "");
     name = name.replace("' does not exist", "");
     status = "Account Closed";
-    $("#dataUl").prepend("<li class='closed'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "'>" + "<h3>" + name + "</h3>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</div>" + "</li>");
+    $("#dataUl").prepend("<li class='closed'>" + "<div class='listBg'>" + "<img id='logoImg' src='" + logo + "' alt='Logo for account'>" + "<h3>" + name + "</h3>" + "<br>" + "<h4 class='status'>" + status + "</h4>" + "</div>" + "</li>");
   }
     
     function getInfo(user){

@@ -5,7 +5,7 @@ $(document).ready(function() {
   /*VARIABLES*/
   var userList = ["freecodecamp", "storbeck", "terakilobyte", "habathcx", "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff", "brunofin", "comster404", "kittyplays", "ms_vixen", "streamerhouse", "syndicate", "captainsparklez", "sodapoppin", "riotgames", "summit1g", "paradoxinteractive", "ESL_CSGO", "jaeyoong", "germanletsplay", "artemis", "cretetion"];
   var callback = "?client_id=jcif7s4k8pvn8opy8zhp3qf3gvraavk&callback=?";
-  var noLogo = "../img/icon.png";
+  var noLogo = "https://raw.githubusercontent.com/Missarachnid/fcc-twitch-viewer/gh-pages/img/icon.png";
   var name, logo, link, status;
     
     

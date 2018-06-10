@@ -1,18 +1,18 @@
-#Twitch Viewer
+#  Twitch Viewer
 This is my entry for Free Code Camp Twitch.tv viewer.
 
-###Built With
+###  Built With
 +  HTML  
 +  CSS  
 +  Javascript  
 +  Jquery  
 +  Twitch.tv API  
 
-###Author
+###  Author
 +  Melissa Kepler a.k.a. Missarachid  
 
-###Acknowledgements
+###  Acknowledgements
 +  Free Code Camp  
 +  Twitch TV  
 
-###Project can be viewed here: https://missarachnid.github.io/fcc-twitch-viewer/
+###  Project can be viewed [here]( https://missarachnid.github.io/fcc-twitch-viewer/)
